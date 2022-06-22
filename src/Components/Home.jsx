@@ -1,26 +1,12 @@
-import React from "react";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
+import React from 'react'
+import Header from './Header'
 
 const Home = () => {
   return (
-    <div className="">
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
+    <div>
       <Header/>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
