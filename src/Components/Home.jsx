@@ -1,14 +1,24 @@
 import React from "react";
-import Nav from "./Nav";
+import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 const Home = () => {
   return (
-    <div>
-      <div className="flex">
-        <Sidebar />
-          <Nav />
-      </div>
+    <div className="">
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
+      <Header/>
     </div>
   );
 };
