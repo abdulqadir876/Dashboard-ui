@@ -3,11 +3,11 @@ import { AiFillBell } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <div className="w-[80vw] mx-auto p-6">
-      <div className="flex justify-between bg-pink-500 p-4">
-        <h1 className="text-secondry text-2xl">Dashboard</h1>
+    <div className="w-[80vw] mx-auto">
+      <div className="flex justify-between items-center bg-pink-500 py-3">
+        <h1 className="text-secondry text-lg font-medium">Dashboard</h1>
         <nav className="flex items-center gap-2">
-          <span className="bg-white p-2 rounded-lg text-secondry">
+          <span className="bg-white p-2 rounded-lg text-textColor">
             <svg
               class="w-6 h-6"
               fill="none"
@@ -27,12 +27,12 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search Everthing"
-              className="px-4 py-2 outline-none rounded"
+              className="px-4 py-2 text-sm outline-none rounded"
             />
           </span>
         </nav>
       </div>
-      <hr />
+      <hr className="text-textColor shadow"/>
     </div>
   );
 };
